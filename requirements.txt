@@ -1,0 +1,9 @@
+# Requirements for hello-world-consumer project
+# This project depends on the hello-world-test-private-repo package
+# from the private devpi server
+
+# To install from the private devpi server, use:
+# pip install --index-url http://localhost:3141/root/public/+simple/ hello-world-test-private-repo
+
+hello-world-test-private-repo==0.1.0
+
